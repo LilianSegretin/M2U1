@@ -6,13 +6,20 @@ font-family: 'Smooch', cursive; */
 h2 {
     color: #000;
     font-family: 'Smooch', cursive;
-    font-size: 90px;
+    font-size: 70px;
+    margin: 0;
+}
+
+h3 {
+    color: #000;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
     margin: 0;
 }
 
 .caja {
     width: 300;
-    height: 300;
+    height: 100;
     margin: 100px;
     background: #8600ff;
     background: linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
@@ -34,8 +41,33 @@ h2 {
     font-family: 'Grape Nuts';
     font-size: 30px;
 }
-.grande{
+
+.grande {
     color: aqua;
     font-size: 80px;
+
+}
+
+.contacto {
+
+    width: 130;
+    height: 130;
+    margin: 30px;
+    background: #8600ff;
+    background: linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    background: -webkit-linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    background: -moz-linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    box-shadow: -10px -10px 50px black(0, 0, 0, 0.44);
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 1px solid #8600ff;
+    margin: 0px;
+
 
 }
