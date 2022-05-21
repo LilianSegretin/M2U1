@@ -1,0 +1,41 @@
+/*
+ font-family: 'Grape Nuts', cursive;
+font-family: 'Smooch', cursive; */
+
+
+h2 {
+    color: #000;
+    font-family: 'Smooch', cursive;
+    font-size: 90px;
+    margin: 0;
+}
+
+.caja {
+    width: 300;
+    height: 300;
+    margin: 100px;
+    background: #8600ff;
+    background: linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    background: -webkit-linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    background: -moz-linear-gradient(35deg, #8600ff 0%, #ff00ee 80%);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 20px;
+    box-shadow: -10px -10px 50px black(0, 0, 0, 0.44);
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid #8600ff;
+
+}
+
+.caja p {
+    margin: 0px;
+    font-family: 'Grape Nuts';
+    font-size: 30px;
+}
+.grande{
+    color: aqua;
+    font-size: 80px;
+
+}
